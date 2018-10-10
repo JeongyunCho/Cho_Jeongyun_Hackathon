@@ -1,0 +1,27 @@
+
+
+.marketing-site-three-up {
+  text-align: center;
+  padding: 2rem 0;
+
+
+  .cell {
+    margin-bottom: 1rem;
+
+    @media screen and (min-width: 40em) {
+      margin-bottom: 0;
+    }
+  }
+
+  .fa {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: $primary-color;
+  }
+}
+
+.marketing-site-three-up-headline {
+  margin-bottom: 2rem;
+  font-size: 24px;
+}
+
