@@ -3,13 +3,6 @@
 //import required modules
 @import 'modules/_header';
 @import 'modules/_content';
+@import 'modules/_imgDesc';
 @import 'modules/_lightbox';
 @import 'modules/_footer';
-@import 'modules/_imgDesc';
-.boxHelper {
-    background-color: $boxBackground;
-    color: $boxFont;
-    height: $boxHeight;
-    text-align: $centeredText;
-}
-

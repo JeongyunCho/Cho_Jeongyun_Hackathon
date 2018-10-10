@@ -5,19 +5,22 @@
   
     .topbar-responsive-logo {
       color: $white;
-      vertical-align: middle;
+     margin-left: 1em;
+
     }
   
     .menu {
       background: $topbar-responsive-bg;
   
       li:last-of-type {
-        margin-right: 0;
+        margin-right: 0.5em;
       }
   
       a {
         color: $white;
         transition: color 0.15s ease-in;
+        margin-right:0.4 em;
+        
   
         &:hover {
           color: lighten($topbar-responsive-bg, 60%);
@@ -25,6 +28,7 @@
   
         @media screen and (max-width: 39.9375em) {
           padding: 0.875rem 0;
+          
         }
       }
   
