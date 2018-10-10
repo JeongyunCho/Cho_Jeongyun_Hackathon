@@ -3,8 +3,8 @@ var modal = document.querySelector('#myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var modalImg = document.querySelector("#img01");
-var images = document.querySelectorAll('.portFolioImg');
-var viewBut = document.querySelectorAll('.myImg');
+var images = document.querySelectorAll('.productImage');
+var viewBut = document.querySelectorAll('.imgBtn');
 
 function swapImage(index) {
     modal.style.display = "block";

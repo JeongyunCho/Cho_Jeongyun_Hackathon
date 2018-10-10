@@ -22,7 +22,7 @@ img {
 }
 
 
-#ourWork{
+#moreProducts{
 
 button {
     width: $pop-buttom-width;
@@ -42,7 +42,7 @@ button {
 }
 }
 
-#extraWork {
+#moreProducts2 {
 
     button {
         width: $pop-buttom-width;
@@ -110,12 +110,12 @@ button {
     border-radius: $radius;
 }
 
-.myImg {
+.imgBtn {
     border-radius: $imgRadius;
     cursor: pointer;
     transition: 0.3s;
     
-    .myImg:hover {
+    &:hover {
         opacity: 0.7;
     }
 }
