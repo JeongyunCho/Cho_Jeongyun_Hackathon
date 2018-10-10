@@ -1,0 +1,164 @@
+#promoText {
+    color: $promoFontColor;
+    margin-top: $promoPadding-Top;
+    margin-bottom: $promoPadding-Top;
+    text-align: $centeredText;
+    font-size: $promoFontSize;
+    font-weight: bold;
+
+}
+
+#galleryText {
+    color: $promoFontColor;
+    margin-top: $promoPadding-Top;
+    margin-bottom: $promoPadding-Top;
+    text-align: $centeredText;
+    font-size: $promoFontSize;
+    font-weight: bold;
+}
+
+img {
+    margin-top: $navMargin;
+}
+
+
+#ourWork{
+
+button {
+    width: $pop-buttom-width;
+    height: $pop-button-height;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    color: white;
+    margin-top: $pop-button-top;
+
+    &:hover{
+        background-color: white;
+        color: black;
+    
+    }
+}
+}
+
+#extraWork {
+
+    button {
+        width: $pop-buttom-width;
+        height: $pop-button-height;
+        border-top: solid 2px white;
+        border-bottom: solid 2px white;
+        border-left: solid 2px white;
+        border-right: solid 2px white;
+        color: white;
+        margin-top: $pop-button-top;
+    
+        &:hover{
+            background-color: white;
+            color: black;
+        
+        }
+    }
+
+}
+
+.popContainer {
+    position: relative;
+}
+
+.popOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: $black;
+    margin-top: $pop-margin-top;
+    height: auto;
+   
+}
+
+.popContainer:hover .popOverlay {
+    opacity: 0.8;
+
+}
+
+.popText {
+    color: white;
+    font-size: $pop-text-size;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+}
+
+
+
+
+#infoText p {
+    text-align: center;
+}
+
+#zhiQing img, #lee img {
+    border-radius: $radius;
+}
+
+.myImg {
+    border-radius: $imgRadius;
+    cursor: pointer;
+    transition: 0.3s;
+    
+    .myImg:hover {
+        opacity: 0.7;
+    }
+}
+
+
+
+
+@media screen and (min-width: 64em) {
+
+
+    #infoText {
+        font-size: $info-title-desktop;
+        font-family: $fontFam;
+    }
+
+    #descInfo, #leeDesc {
+        margin-top: $info-margin-desktop;
+    }
+
+    #descInfo p, #leeDesc p {
+    
+        line-height: $line-space-desktop;
+        font-size: $instruction-font-Desktop;
+    }
+
+    #portTitle {
+        margin-top : $port-margin-desktop;
+    }
+
+    #portTitle p {
+        font-size: $port-title-desktop;
+    }
+
+    #zhiQing img, #lee img {
+        border-radius: $image-radius-desktop;
+    }
+
+
+    
+
+    
+
+
+
+
+}   
