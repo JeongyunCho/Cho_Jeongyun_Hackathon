@@ -14,7 +14,7 @@ You will need
 
 ## Getting Started
 
-git clone 
+git clone https://github.com/JeongyunCho/Cho_Jeongyun_Hackathon.git
 
 You're ready to go!
 
