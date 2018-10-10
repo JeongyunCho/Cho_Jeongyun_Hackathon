@@ -1,5 +1,8 @@
+body{
+    font-family: $fontFam;
+}
 #promoText {
-    color: $promoFontColor;
+   
     margin-top: $promoPadding-Top;
     margin-bottom: $promoPadding-Top;
     text-align: $centeredText;
@@ -22,7 +25,7 @@ img {
 }
 
 
-#moreProducts{
+#productImg{
 
 button {
     width: $pop-buttom-width;
@@ -42,7 +45,7 @@ button {
 }
 }
 
-#moreProducts2 {
+#productImg2 {
 
     button {
         width: $pop-buttom-width;
@@ -149,16 +152,17 @@ button {
         font-size: $port-title-desktop;
     }
 
-    #zhiQing img, #lee img {
+    #productImg img, #productImg2 img {
         border-radius: $image-radius-desktop;
+    }
+    #productImg2{
+        margin-bottom: 5em;
     }
 
 
-    
-
-    
-
-
-
-
 }   
+.marketing-site-three-up-headline{
+    color: $promoFontColor;
+    font-size: $promoFontSize;
+    margin-bottom:0.5em;
+}
