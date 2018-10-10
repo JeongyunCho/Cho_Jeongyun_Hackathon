@@ -1,0 +1,25 @@
+{
+  "name": "cho_jeongyun_hackathon",
+  "version": "1.0.0",
+  "description": "hackathon group project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeongyunCho/Cho_Jeongyun_Hackathon.git"
+  },
+  "author": "Cho, Jeril, Lee, Zhao, Dahele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeongyunCho/Cho_Jeongyun_Hackathon/issues"
+  },
+  "homepage": "https://github.com/JeongyunCho/Cho_Jeongyun_Hackathon#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.0",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
